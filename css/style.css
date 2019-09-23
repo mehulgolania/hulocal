@@ -1,0 +1,119 @@
+* { box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box;}
+
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, dialog, div, dl, dt, em, embed, fieldset, figcaption, figure, font, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, hr, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, meter, nav, object, ol, output, p, pre, progress, q, rp, rt, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video, xmp { border: 0; margin: 0; padding: 0; font-size: 100%; outline:none;}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block;}
+
+table { border-collapse: collapse; border-spacing: 0;}
+
+html, body{ width:100%; height:100%; }
+body { width:100%; word-wrap:break-word;}
+
+
+a:hover { text-decoration:none;}
+a:focus { text-decoration:none; outline:none;}
+a:active { text-decoration:none; outline:none;}
+
+input { margin: 0;}
+input:hover, input:focus, input:active { box-shadow: none;}
+
+/* HELPER CLASS STARTS*/
+.left{ float:left;}
+.right{ float:right;}
+.clearfix:before,
+.clearfix:after{
+display: table;
+content: " ";
+}
+.clearfix:after{clear:both;}
+.txt-l{text-align:left;}
+.txt-r{text-align:right;}
+.full-width{width:100%;}
+.three-fourth{width:75%;}
+.half-width{width:50%;}
+.one-fourth{width:25%;}
+/* HELPER CLASS ENDS*/
+
+/* FONTS STARTS*/
+@font-face {
+	font-family: 'OpenSans';
+	src: url('../fonts/OpenSans.eot?') format('eot'), 
+	     url('../fonts/OpenSans.woff') format('woff'), 
+	     url('../fonts/OpenSans.ttf')  format('truetype'),
+	     url('../fonts/OpenSans.svg#OpenSans') format('svg');
+}
+@font-face {
+	font-family: 'OpenSans-Light';
+	src: url('../fonts/OpenSans-Light.eot?') format('eot'), 
+	     url('../fonts/OpenSans-Light.woff') format('woff'), 
+	     url('../fonts/OpenSans-Light.ttf')  format('truetype'),
+	     url('../fonts/OpenSans-Light.svg#OpenSans-Light') format('svg');
+}
+
+/* FONTS STARTS*/
+.background{
+background:url('../img/bg.jpg');
+}
+.fullwidth-wrapper{
+height:100%;
+}
+.main-container{
+position:relative;
+width:1273px;
+margin:0 auto;
+height:96%;
+}
+.main-container h1{
+font-family: 'OpenSans-Light';
+font-size:50px;
+color:#000;
+margin-top:95px;
+margin-bottom:35px;
+}
+.hand{
+position:absolute;
+width:48%;
+bottom:-1px;
+}
+.app-details{
+position:absolute;
+width:40.15%;
+right:0;
+top:50%;
+}
+.hand img{
+max-width:100%;
+width:auto;
+height:auto;
+max-height:100%;
+}
+.download a{
+text-decoration:none;
+display:inline-block;
+margin-right:15px;
+margin-bottom:10px;
+text-indent:-9999px;
+cursor:pointer;
+}
+.download a.google{
+width:226px;
+height:80px;
+background:url('../img/google-play.png') no-repeat;
+}
+.download a.apple{
+width:202px;
+height:80px;
+margin-right:0px;
+background:url('../img/app-store.png') no-repeat;
+}
+.footer{
+position:fixed;
+bottom:0;
+text-align:center;
+padding:10px;
+background:#cb3b84;
+}
+.footer p{
+font-family: 'OpenSans';
+font-size:16px;
+color:#fff;
+}

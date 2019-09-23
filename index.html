@@ -1,0 +1,78 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>HuLocal</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link href="css/style.css" rel="stylesheet" type="text/css"  media="screen">
+<link href="css/media-queries.css" rel="stylesheet" type="text/css"  media="screen">
+
+<link rel="icon" href="img/favicon.ico" type="image/x-icon">
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+
+
+<!--[if lt IE 9]>
+	<script src="js/html5shiv-printshiv.js"></script>
+<![endif]-->
+
+<!-- respond.js for IE less than 9 -->
+<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+<![endif]-->
+
+
+<!--[if lt IE 9]>
+  <script type="text/javascript" src="js/PIE_IE678.js"></script>
+<![endif]-->
+<!--[if IE 9]>
+  <script type="text/javascript" src="js/PIE_IE9.js"></script>
+<![endif]-->
+
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript" src="js/less-1.7.0.min.js"></script>
+
+
+<script>
+$(document).ready(function(){
+	var app = $('.app-details').outerHeight();
+	var mar = app/2;
+	$('.app-details').css('margin-top', -mar);	
+});
+$(window).resize(function(){
+	var app = $('.app-details').outerHeight();
+	var mar = app/2;
+	$('.app-details').css('margin-top', -mar);
+});
+
+</script>
+</head>
+<body class="background">
+
+<section class="full-width fullwidth-wrapper">
+	<section class="main-container">
+		<section class="app-details">
+				<article class="logo">
+					<img src="img/logo.png" alt="logo"/>
+				</article>
+				<h1>Select and Order the Commodity Products</h1>
+				
+				<section class="download">
+					<a href="https://play.google.com/store/apps/details?id=com.osp" target="_blank" class="google">google</a>
+					<a href="https://itunes.apple.com/us/app/hulocal/id878930919?ls=1&mt=8" target="_blank" class="apple">apple</a>
+				</section>
+		</section>
+		
+		<section class="hand">
+			<img src="img/hand.png" alt="Hand-Image"/>
+		</section>
+	</section>
+</section>
+
+
+<footer class="full-width footer">
+	<p>Copyright &copy; 2014 HuLocal.com All Rights Reserved.</p>
+</footer>
+</body>
+</html>
